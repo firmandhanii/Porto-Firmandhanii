@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Firman Ramdhani — AI Systems &amp; Fullstack Developer</title>
+  <desc id="description">Portfolio covering enterprise AI, workflow automation, web applications, and algorithmic trading.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0b14"/><stop offset="1" stop-color="#171638"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <circle cx="1030" cy="115" r="260" fill="#8b5cf6" opacity=".12"/>
+  <circle cx="115" cy="580" r="230" fill="#22d3ee" opacity=".08"/>
+  <rect x="88" y="100" width="8" height="420" rx="4" fill="url(#accent)"/>
+  <text x="140" y="220" fill="#a5b4fc" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="6">PORTFOLIO</text>
+  <text x="135" y="320" fill="#f8fafc" font-family="Arial,sans-serif" font-size="68" font-weight="700">Firman Ramdhani</text>
+  <text x="140" y="390" fill="#c4b5fd" font-family="Arial,sans-serif" font-size="34" font-weight="600">AI Systems &amp; Fullstack Developer</text>
+  <text x="140" y="465" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="23">RAG &amp; MCP  ·  Automation  ·  Web Apps  ·  Algorithmic Trading</text>
+  <rect x="140" y="500" width="300" height="5" rx="2.5" fill="url(#accent)"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title">
+  <title id="title">IT operations knowledge topology illustration</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11152c"/><stop offset="1" stop-color="#20234a"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#bg)"/><text x="95" y="120" fill="#f8fafc" font-family="Arial,sans-serif" font-size="38" font-weight="700">IT Ops Knowledge</text><text x="95" y="160" fill="#a5b4fc" font-family="Arial,sans-serif" font-size="20">SEARCH · SYSTEM TOPOLOGY · OPERATIONS</text>
+  <g stroke="#6473e8" stroke-width="5" opacity=".8"><path d="M600 390 330 275M600 390 870 275M600 390 330 535M600 390 870 535M330 275 180 420M870 275 1020 420M330 535 180 420M870 535 1020 420"/></g>
+  <g fill="#202b50" stroke="#818cf8" stroke-width="4"><rect x="450" y="320" width="300" height="140" rx="24"/><rect x="205" y="205" width="250" height="130" rx="22"/><rect x="745" y="205" width="250" height="130" rx="22"/><rect x="205" y="475" width="250" height="130" rx="22"/><rect x="745" y="475" width="250" height="130" rx="22"/></g>
+  <g fill="#f8fafc" font-family="Arial,sans-serif" text-anchor="middle"><text x="600" y="382" font-size="27" font-weight="700">Operations Hub</text><text x="600" y="420" font-size="19" fill="#a5b4fc">SOP · Search · Audit</text><text x="330" y="267" font-size="22">Knowledge Base</text><text x="870" y="267" font-size="22">System Map</text><text x="330" y="538" font-size="22">Approval Flow</text><text x="870" y="538" font-size="22">Audit Analytics</text></g>
+</svg>

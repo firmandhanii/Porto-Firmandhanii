@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="#0B0B14"/>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <g fill="none" stroke="#1A1536" stroke-width="2">
+    <path d="M60 120 H540 M60 220 H540 M180 60 V320 M380 60 V320"/>
+  </g>
+  <g fill="#120E24" stroke="#A78BFA" stroke-width="2">
+    <path d="M230 230 L290 180 L350 230 V290 H230 Z"/>
+    <rect x="275" y="250" width="30" height="40"/>
+  </g>
+  <g fill="#22D3EE">
+    <path d="M140 150 a16 16 0 1 1 32 0 c0 14 -16 30 -16 30 s-16 -16 -16 -30z"/>
+    <path d="M430 110 a16 16 0 1 1 32 0 c0 14 -16 30 -16 30 s-16 -16 -16 -30z"/>
+  </g>
+  <text x="300" y="350" text-anchor="middle" fill="#D1D5DB" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">YanProperty</text>
+</svg>

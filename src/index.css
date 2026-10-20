@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 bg-bg font-sans text-text-primary antialiased;
+  }
+
+  #root {
+    @apply min-h-screen bg-bg text-text-primary;
+  }
+
+  /* Visible keyboard focus for every interactive element */
+  :focus-visible {
+    @apply rounded-md outline-none ring-2 ring-accent-soft ring-offset-2 ring-offset-bg;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+  .section-eyebrow {
+    @apply mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent-soft;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent to-cyan bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 font-medium text-white transition duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/30 active:translate-y-0 motion-reduce:transition-none motion-reduce:hover:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-bg-card/50 px-6 py-3 font-medium text-text-primary transition duration-200 hover:-translate-y-0.5 hover:border-accent hover:bg-bg-hover active:translate-y-0 motion-reduce:transition-none motion-reduce:hover:translate-y-0;
+  }
+}
