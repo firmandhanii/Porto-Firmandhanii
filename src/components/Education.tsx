@@ -1,5 +1,5 @@
 import { useLanguage } from '../i18n/LanguageContext'
-import { educationList, trainingList } from '../data/education'
+import { educationList, certificationsList, trainingList } from '../data/education'
 import Reveal from './ui/Reveal'
 
 const Education = () => {
@@ -13,6 +13,10 @@ const Education = () => {
           <h2 id="education-heading" className="text-3xl font-bold md:text-4xl">
             {t.education.heading}
           </h2>
+        </Reveal>
+
+        <Reveal className="mb-6">
+          <h3 className="text-center text-xl font-bold text-text-primary">{t.education.educationHeading}</h3>
         </Reveal>
 
         <ol className="relative border-l border-line">
@@ -49,6 +53,39 @@ const Education = () => {
             </li>
           ))}
         </ol>
+
+        <Reveal className="mt-14">
+          <h3 className="mb-6 text-center text-xl font-bold text-text-primary">
+            {t.education.certificationsHeading}
+          </h3>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {certificationsList.map((cert) => (
+              <article
+                key={cert.id}
+                className="flex flex-col rounded-xl border border-line bg-bg-card/60 p-5 transition-colors hover:border-accent/60"
+              >
+                <h4 className="text-base font-semibold text-text-primary">{cert.title}</h4>
+                <p className="text-sm text-accent-soft">{cert.issuer}</p>
+                <p className="mt-2 text-sm text-text-muted">{l(cert.issued)}</p>
+                {cert.credentialId && (
+                  <p className="mt-1 text-sm text-text-secondary">
+                    {t.education.certificationId}: {cert.credentialId}
+                  </p>
+                )}
+                {cert.credentialUrl && (
+                  <a
+                    href={cert.credentialUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-accent hover:underline"
+                  >
+                    {t.education.showCredential} ↗
+                  </a>
+                )}
+              </article>
+            ))}
+          </div>
+        </Reveal>
 
         <Reveal className="mt-14">
           <h3 className="mb-6 text-center text-xl font-bold text-text-primary">{t.education.trainingHeading}</h3>

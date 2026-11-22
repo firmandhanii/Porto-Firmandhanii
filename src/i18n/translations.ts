@@ -62,6 +62,10 @@ const en = {
     eyebrow: 'Education & training',
     heading: 'Education & Training',
     coursework: 'Relevant coursework',
+    educationHeading: 'Education',
+    certificationsHeading: 'Licenses & Certifications',
+    certificationId: 'Credential ID',
+    showCredential: 'Show credential',
     trainingHeading: 'Training',
     trainingNote:
       'Training items are listed on the CV without a completion year or certificate number, so none is shown here.',
@@ -164,6 +168,10 @@ const id: typeof en = {
     eyebrow: 'Pendidikan & pelatihan',
     heading: 'Pendidikan & Pelatihan',
     coursework: 'Mata kuliah relevan',
+    educationHeading: 'Pendidikan',
+    certificationsHeading: 'Lisensi & Sertifikasi',
+    certificationId: 'ID Kredensial',
+    showCredential: 'Lihat kredensial',
     trainingHeading: 'Pelatihan',
     trainingNote:
       'Pelatihan di atas tercantum di CV tanpa tahun penyelesaian atau nomor sertifikat, jadi tidak ditampilkan di sini.',
