@@ -29,6 +29,12 @@ export const ChevronIcon = (props: IconProps) => (
   </svg>
 )
 
+export const CloseIcon = (props: IconProps) => (
+  <svg {...base} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M18 6L6 18M6 6l12 12" />
+  </svg>
+)
+
 export const DownloadIcon = (props: IconProps) => (
   <svg {...base} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...props}>
     <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" />

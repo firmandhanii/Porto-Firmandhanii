@@ -43,4 +43,14 @@
   .btn-secondary {
     @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-bg-card/50 px-6 py-3 font-medium text-text-primary transition duration-200 hover:-translate-y-0.5 hover:border-accent hover:bg-bg-hover active:translate-y-0 motion-reduce:transition-none motion-reduce:hover:translate-y-0;
   }
+
+  /* Horizontal gallery track: swipe/scroll without a visible scrollbar */
+  .scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }

@@ -94,6 +94,11 @@ const en = {
     demo: 'Open live demo',
     private: 'Private / confidential project',
     imagePending: 'Image slot',
+    previous: 'Previous project',
+    next: 'Next project',
+    close: 'Close',
+    scrollHint: 'Scroll or drag sideways to browse the projects',
+    openCaseStudy: 'Open case study',
   },
   stack: {
     heading: 'Tech Stack',
@@ -200,6 +205,11 @@ const id: typeof en = {
     demo: 'Buka demo',
     private: 'Proyek privat / rahasia',
     imagePending: 'Slot gambar',
+    previous: 'Proyek sebelumnya',
+    next: 'Proyek berikutnya',
+    close: 'Tutup',
+    scrollHint: 'Geser ke samping untuk menjelajahi proyek',
+    openCaseStudy: 'Buka studi kasus',
   },
   stack: {
     heading: 'Teknologi',
