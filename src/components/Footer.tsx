@@ -26,7 +26,7 @@ const Footer = () => {
   ].filter((link) => link.href)
 
   return (
-    <footer id="contact" className="scroll-mt-24 border-t border-line bg-bg/75 py-16">
+    <footer id="contact" className="scroll-mt-24 border-t border-line bg-bg py-16">
       <div className="mx-auto max-w-6xl px-6">
         {/* CTA banner */}
         <Reveal>

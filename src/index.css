@@ -8,14 +8,11 @@
   }
 
   body {
-    @apply m-0 font-sans text-text-primary antialiased;
-    /* Deep-space base so the Andromeda background blends with overscroll */
-    background-color: #04040d;
+    @apply m-0 bg-bg font-sans text-text-primary antialiased;
   }
 
   #root {
-    @apply min-h-screen text-text-primary;
-    background-color: transparent;
+    @apply min-h-screen bg-bg text-text-primary;
   }
 
   /* Visible keyboard focus for every interactive element */
@@ -56,67 +53,4 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
-
-  /* Andromeda nebula drift — slow and subtle, off when reduced motion is requested */
-  @keyframes andromeda-drift {
-    0%,
-    100% {
-      transform: translate3d(0, 0, 0) scale(1);
-    }
-    50% {
-      transform: translate3d(3rem, -2rem, 0) scale(1.08);
-    }
-  }
-
-  .andromeda-nebula {
-    animation: andromeda-drift 70s ease-in-out infinite;
-  }
-
-  .andromeda-nebula-slow {
-    animation-duration: 100s;
-    animation-direction: reverse;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .andromeda-nebula {
-      animation: none;
-    }
-  }
-}
-
-/* ============================================================
-   ANDROMEDA CLEANUP — Dribbble "Galaxy Portfolio" lesson.
-   Unlayered on purpose: unlayered author CSS wins over Tailwind's
-   layered utilities, so these overrides hold without touching any
-   component file or any translucent background class in the markup.
-
-   The mess came from translucent section/card backgrounds (75% /
-   60% / 50%) letting the fixed galaxy bleed through behind every
-   paragraph. Now the galaxy lives only in the hero window (see
-   AndromedaBackground.tsx), and every surface below it is solid
-   calm dark again — text never sits on stars.
-   ============================================================ */
-
-/* Sections: solid dark again (keeps the existing bg / bg-alt rhythm) */
-[class*='bg-bg-alt/75'] {
-  background-color: #0f0c1d;
-}
-
-[class*='bg-bg/75'],
-[class*='bg-bg/60'] {
-  background-color: #0b0b14;
-}
-
-/* Cards, chips and badges that were translucent: frosted dark glass
-   with blur, so anything over the hero galaxy stays readable */
-[class*='bg-bg-card/60'],
-[class*='bg-bg-card/50'] {
-  background-color: rgba(18, 14, 36, 0.88);
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
-}
-
-/* Cards get the big, soft Dribbble corner (16px) */
-main section article {
-  border-radius: 1rem;
 }

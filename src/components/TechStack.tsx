@@ -34,7 +34,7 @@ const TechStack = () => {
   const { t } = useLanguage()
 
   return (
-    <section id="stack" className="scroll-mt-24 border-t border-line bg-bg-alt/75 py-20" aria-labelledby="stack-heading">
+    <section id="stack" className="scroll-mt-24 border-t border-line bg-bg-alt py-20" aria-labelledby="stack-heading">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <h2 id="stack-heading" className="mb-12 text-center text-3xl font-bold md:text-4xl">

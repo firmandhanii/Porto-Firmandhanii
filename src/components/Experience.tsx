@@ -7,7 +7,7 @@ const Experience = () => {
   const { t, l } = useLanguage()
 
   return (
-    <section id="experience" className="scroll-mt-24 border-t border-line bg-bg-alt/75 py-20" aria-labelledby="experience-heading">
+    <section id="experience" className="scroll-mt-24 border-t border-line bg-bg-alt py-20" aria-labelledby="experience-heading">
       <div className="mx-auto max-w-4xl px-6">
         <Reveal className="mb-12 text-center">
           <p className="section-eyebrow">{t.experience.eyebrow}</p>

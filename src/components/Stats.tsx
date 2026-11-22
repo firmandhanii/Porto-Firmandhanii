@@ -12,7 +12,7 @@ const Stats = () => {
   if (visible.length === 0) return null
 
   return (
-    <section className="border-t border-line bg-bg/60 py-14" aria-label="Highlights">
+    <section className="border-t border-line bg-bg py-14" aria-label="Highlights">
       <div className="mx-auto max-w-6xl px-6">
         <dl className={`grid grid-cols-2 gap-8 ${visible.length >= 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'}`}>
           {visible.map((stat, i) => (

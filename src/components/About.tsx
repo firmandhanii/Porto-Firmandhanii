@@ -5,7 +5,7 @@ const About = () => {
   const { t } = useLanguage()
 
   return (
-    <section id="about" className="scroll-mt-24 border-t border-line bg-bg-alt/75 py-20" aria-labelledby="about-heading">
+    <section id="about" className="scroll-mt-24 border-t border-line bg-bg-alt py-20" aria-labelledby="about-heading">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 md:grid-cols-[0.8fr_1.2fr] md:items-start">
         <Reveal>
           <p className="section-eyebrow">{t.about.eyebrow}</p>
