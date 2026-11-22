@@ -13,6 +13,7 @@ import TechStack from './components/TechStack'
 import Footer from './components/Footer'
 import ScrollProgress from './components/ui/ScrollProgress'
 import Preloader from './components/ui/Preloader'
+import AndromedaBackground from './components/AndromedaBackground'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* reducedMotion="user" disables transform animations when the OS asks for reduced motion */}
       <MotionConfig reducedMotion="user">
         <Preloader />
-        <div className="min-h-screen bg-bg text-text-primary">
+        <AndromedaBackground />
+        <div className="relative z-10 min-h-screen text-text-primary">
           <ScrollProgress />
           <Navbar />
           <main>

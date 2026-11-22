@@ -168,7 +168,7 @@ const FeaturedProjects = ({ projects }: { projects: Project[] }) => {
   const progress = total > 1 ? activeIndex / (total - 1) : 1
 
   return (
-    <section id="projects" className="scroll-mt-24 overflow-hidden border-t border-line bg-bg py-20" aria-labelledby="projects-heading">
+    <section id="projects" className="scroll-mt-24 overflow-hidden border-t border-line bg-bg/75 py-20" aria-labelledby="projects-heading">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal className="mb-10 text-center">
           <p className="section-eyebrow">{t.projects.eyebrow}</p>

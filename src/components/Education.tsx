@@ -6,7 +6,7 @@ const Education = () => {
   const { t, l } = useLanguage()
 
   return (
-    <section id="education" className="scroll-mt-24 border-t border-line bg-bg py-20" aria-labelledby="education-heading">
+    <section id="education" className="scroll-mt-24 border-t border-line bg-bg/75 py-20" aria-labelledby="education-heading">
       <div className="mx-auto max-w-4xl px-6">
         <Reveal className="mb-12 text-center">
           <p className="section-eyebrow">{t.education.eyebrow}</p>

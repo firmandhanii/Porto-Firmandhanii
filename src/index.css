@@ -8,11 +8,14 @@
   }
 
   body {
-    @apply m-0 bg-bg font-sans text-text-primary antialiased;
+    @apply m-0 font-sans text-text-primary antialiased;
+    /* Deep-space base so the Andromeda background blends with overscroll */
+    background-color: #04040d;
   }
 
   #root {
-    @apply min-h-screen bg-bg text-text-primary;
+    @apply min-h-screen text-text-primary;
+    background-color: transparent;
   }
 
   /* Visible keyboard focus for every interactive element */
@@ -52,5 +55,31 @@
 
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
+  }
+
+  /* Andromeda nebula drift — slow and subtle, off when reduced motion is requested */
+  @keyframes andromeda-drift {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+    50% {
+      transform: translate3d(3rem, -2rem, 0) scale(1.08);
+    }
+  }
+
+  .andromeda-nebula {
+    animation: andromeda-drift 70s ease-in-out infinite;
+  }
+
+  .andromeda-nebula-slow {
+    animation-duration: 100s;
+    animation-direction: reverse;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .andromeda-nebula {
+      animation: none;
+    }
   }
 }
