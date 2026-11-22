@@ -10,10 +10,9 @@ export const profile = {
   github: 'https://github.com/firmandhanii',
   githubUser: 'firmandhanii',
   telegram: 'https://t.me/Firmandhanii',
-  /** e.g. 'https://www.linkedin.com/in/your-handle' — hidden while empty */
-  linkedin: '',
-  /** Put your CV at public/cv/Firman-Ramdhani-CV.pdf, then set this to '/cv/Firman-Ramdhani-CV.pdf' */
-  cv: '',
+  linkedin: 'https://www.linkedin.com/in/firmandhanii',
+  /** CV file lives at public/cv/Firman-Ramdhani-CV.pdf */
+  cv: '/cv/Firman-Ramdhani-CV.pdf',
   /** WhatsApp (shown in footer and Hero) */
   wa: '087784518610',
 }

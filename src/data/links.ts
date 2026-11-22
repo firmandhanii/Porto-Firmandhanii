@@ -20,7 +20,7 @@ export const navLinks: Link[] = [
 /** Contact / social links */
 export const contactLinks: Link[] = [
   { id: 'github', href: 'https://github.com/firmandhanii', label: { en: 'GitHub', id: 'GitHub' }, external: true },
-  { id: 'linkedin', href: '', label: { en: 'LinkedIn', id: 'LinkedIn' }, external: true }, // hidden when empty
+  { id: 'linkedin', href: 'https://www.linkedin.com/in/firmandhanii', label: { en: 'LinkedIn', id: 'LinkedIn' }, external: true },
   { id: 'telegram', href: 'https://t.me/Firmandhanii', label: { en: 'Telegram', id: 'Telegram' }, external: true },
   { id: 'email', href: 'mailto:firmandhanii26@gmail.com', label: { en: 'Email', id: 'Email' }, external: false },
 ]
@@ -33,5 +33,5 @@ export const footerLinks: Link[] = [
 
 /** Download / CV */
 export const downloadLinks: Link[] = [
-  { id: 'cv', href: '', label: { en: 'Download CV', id: 'Unduh CV' }, external: false },
+  { id: 'cv', href: '/cv/Firman-Ramdhani-CV.pdf', label: { en: 'Download CV', id: 'Unduh CV' }, external: false },
 ]

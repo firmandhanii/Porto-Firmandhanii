@@ -4,6 +4,11 @@ import Reveal from './ui/Reveal'
 
 const techCategories = [
   {
+    name: 'ERP, Cloud & Data',
+    dot: 'bg-amber-400',
+    items: ['Oracle EBS (AP, GL, PO, FA, iProc)', 'Advanced SQL', 'Oracle DB', 'Google Cloud Platform', 'Cloud Run', 'Docker', 'VPS'],
+  },
+  {
     name: 'AI & MCP',
     dot: 'bg-accent',
     items: ['Python', 'FastAPI', 'Google Gemini API', 'Model Context Protocol', 'Vector DB', 'LangChain'],

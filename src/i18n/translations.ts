@@ -18,7 +18,7 @@ const en = {
     greeting: "Hi, I'm",
     role: 'AI Systems & Fullstack Developer',
     summary:
-      'I build enterprise AI assistants, workflow automation, and data-driven trading tools that save teams hours of manual work.',
+      'IT Service Desk at PT Asuransi Kredit Indonesia with 4+ years in IT support and Oracle E-Business Suite. I build enterprise AI assistants, workflow automation, and data-driven trading tools that save teams hours of manual work.',
     badges: ['RAG & MCP', 'n8n Automation', 'Algorithmic Trading'],
     viewProjects: 'View Projects',
     contact: 'Contact Me',
@@ -29,7 +29,7 @@ const en = {
   about: {
     eyebrow: 'About the work',
     heading: 'Systems that turn ideas into useful products.',
-    body: 'I build software that connects AI, automation, data, and product experience, from internal enterprise tools to web apps and trading research.',
+    body: 'IT Service Desk at Askrindo since 2023, supporting Oracle EBS (AP, GL, PO, FA, iProc) and the insurance systems used across the company. I build software that connects AI, automation, data, and product experience, from internal enterprise tools to web apps and trading research.',
     focus: [
       {
         title: 'Intelligent systems',
@@ -59,7 +59,7 @@ const en = {
   projects: {
     eyebrow: 'Selected work',
     heading: 'Featured Projects',
-    subheading: 'Six key projects spanning AI, automation, trading, and product engineering.',
+    subheading: 'Ten key projects spanning AI, automation, trading, and product engineering.',
     all: 'All',
     viewCaseStudy: 'View case study',
     closeCaseStudy: 'Close case study',
@@ -102,7 +102,7 @@ const id: typeof en = {
     greeting: 'Halo, saya',
     role: 'AI Systems & Fullstack Developer',
     summary:
-      'Saya membangun asisten AI enterprise, otomasi workflow, dan tools trading berbasis data yang menghemat berjam-jam kerja manual tim.',
+      'IT Service Desk di PT Asuransi Kredit Indonesia dengan pengalaman 4+ tahun di IT support dan Oracle E-Business Suite. Saya membangun asisten AI enterprise, otomasi workflow, dan tools trading berbasis data yang menghemat berjam-jam kerja manual tim.',
     badges: ['RAG & MCP', 'Otomasi n8n', 'Algorithmic Trading'],
     viewProjects: 'Lihat Proyek',
     contact: 'Hubungi Saya',
@@ -113,7 +113,7 @@ const id: typeof en = {
   about: {
     eyebrow: 'Tentang karya',
     heading: 'Sistem yang mengubah ide menjadi produk yang berguna.',
-    body: 'Saya membangun software yang menghubungkan AI, otomasi, data, dan pengalaman produk, mulai dari tools internal enterprise hingga aplikasi web dan riset trading.',
+    body: 'IT Service Desk di Askrindo sejak 2023, mendukung Oracle EBS (AP, GL, PO, FA, iProc) dan sistem-sistem asuransi perusahaan. Saya membangun software yang menghubungkan AI, otomasi, data, dan pengalaman produk, mulai dari tools internal enterprise hingga aplikasi web dan riset trading.',
     focus: [
       {
         title: 'Sistem cerdas',
@@ -143,7 +143,7 @@ const id: typeof en = {
   projects: {
     eyebrow: 'Karya pilihan',
     heading: 'Proyek Unggulan',
-    subheading: 'Enam proyek utama yang mencakup AI, otomasi, trading, dan product engineering.',
+    subheading: 'Sepuluh proyek utama yang mencakup AI, otomasi, trading, dan product engineering.',
     all: 'Semua',
     viewCaseStudy: 'Lihat studi kasus',
     closeCaseStudy: 'Tutup studi kasus',
