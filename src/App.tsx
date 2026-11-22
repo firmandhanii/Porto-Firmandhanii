@@ -6,7 +6,9 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Stats from './components/Stats'
 import Experience from './components/Experience'
+import Education from './components/Education'
 import FeaturedProjects from './components/FeaturedProjects'
+import Services from './components/Services'
 import TechStack from './components/TechStack'
 import Footer from './components/Footer'
 import ScrollProgress from './components/ui/ScrollProgress'
@@ -26,7 +28,9 @@ function App() {
             <About />
             <Stats />
             <Experience />
+            <Education />
             <FeaturedProjects projects={projects} />
+            <Services />
             <TechStack />
           </main>
           <Footer />

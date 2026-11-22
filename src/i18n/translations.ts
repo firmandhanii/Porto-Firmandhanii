@@ -7,7 +7,9 @@ const en = {
   nav: {
     about: 'About',
     experience: 'Experience',
+    education: 'Education',
     projects: 'Projects',
+    services: 'Services',
     stack: 'Stack',
     contact: 'Contact',
     openMenu: 'Open navigation menu',
@@ -56,6 +58,22 @@ const en = {
     heading: 'Experience',
     present: 'Present',
   },
+  education: {
+    eyebrow: 'Education & training',
+    heading: 'Education & Training',
+    coursework: 'Relevant coursework',
+    trainingHeading: 'Training',
+    trainingNote:
+      'Training items are listed on the CV without a completion year or certificate number, so none is shown here.',
+  },
+  services: {
+    eyebrow: 'Freelance services',
+    heading: 'Services',
+    subheading: 'Freelance work, priced as listed on Fastwork and Fiverr. Available in the evenings, from home.',
+    priceNote: 'Fastwork price / Fiverr price',
+    quote: 'Contact for a quote',
+    orderVia: 'Order via my freelance profiles:',
+  },
   projects: {
     eyebrow: 'Selected work',
     heading: 'Featured Projects',
@@ -91,7 +109,9 @@ const id: typeof en = {
   nav: {
     about: 'Tentang',
     experience: 'Pengalaman',
+    education: 'Pendidikan',
     projects: 'Proyek',
+    services: 'Layanan',
     stack: 'Teknologi',
     contact: 'Kontak',
     openMenu: 'Buka menu navigasi',
@@ -139,6 +159,22 @@ const id: typeof en = {
     eyebrow: 'Karier',
     heading: 'Pengalaman',
     present: 'Sekarang',
+  },
+  education: {
+    eyebrow: 'Pendidikan & pelatihan',
+    heading: 'Pendidikan & Pelatihan',
+    coursework: 'Mata kuliah relevan',
+    trainingHeading: 'Pelatihan',
+    trainingNote:
+      'Pelatihan di atas tercantum di CV tanpa tahun penyelesaian atau nomor sertifikat, jadi tidak ditampilkan di sini.',
+  },
+  services: {
+    eyebrow: 'Layanan freelance',
+    heading: 'Layanan',
+    subheading: 'Pekerjaan freelance, dengan harga sesuai listing di Fastwork dan Fiverr. Tersedia di malam hari, dari rumah.',
+    priceNote: 'Harga Fastwork / harga Fiverr',
+    quote: 'Hubungi untuk penawaran',
+    orderVia: 'Pesan lewat profil freelance saya:',
   },
   projects: {
     eyebrow: 'Karya pilihan',

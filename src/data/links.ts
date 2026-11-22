@@ -12,7 +12,9 @@ export interface Link {
 export const navLinks: Link[] = [
   { id: 'about', href: '#about', label: { en: 'About', id: 'Tentang' } },
   { id: 'experience', href: '#experience', label: { en: 'Experience', id: 'Pengalaman' } },
+  { id: 'education', href: '#education', label: { en: 'Education', id: 'Pendidikan' } },
   { id: 'projects', href: '#projects', label: { en: 'Projects', id: 'Proyek' } },
+  { id: 'services', href: '#services', label: { en: 'Services', id: 'Layanan' } },
   { id: 'stack', href: '#stack', label: { en: 'Stack', id: 'Teknologi' } },
   { id: 'contact', href: '#contact', label: { en: 'Contact', id: 'Kontak' } },
 ]

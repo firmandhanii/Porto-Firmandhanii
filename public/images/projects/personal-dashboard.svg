@@ -1,8 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title">
-  <title id="title">Offline personal dashboard illustration</title>
-  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#17123d"/><stop offset="1" stop-color="#17365b"/></linearGradient><linearGradient id="neon"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
-  <rect width="1200" height="800" fill="url(#bg)"/><rect x="90" y="75" width="1020" height="650" rx="30" fill="#0d1025" stroke="#34325f" stroke-width="3"/><text x="145" y="155" fill="#f8fafc" font-family="Arial,sans-serif" font-size="38" font-weight="700">Personal Dashboard</text><text x="145" y="195" fill="#a5b4fc" font-family="Arial,sans-serif" font-size="19">YOUR FOCUS · YOUR TASKS · YOUR SPACE</text>
-  <rect x="145" y="235" width="910" height="160" rx="22" fill="#171b36"/><text x="190" y="300" fill="#67e8f9" font-family="Arial,sans-serif" font-size="20">GOOD DAY</text><text x="190" y="360" fill="#f8fafc" font-family="Arial,sans-serif" font-size="48" font-weight="700">09:41:25</text><circle cx="940" cy="315" r="48" fill="none" stroke="#35385e" stroke-width="12"/><path d="M940 267a48 48 0 1 1-43 69" fill="none" stroke="url(#neon)" stroke-width="12" stroke-linecap="round"/>
-  <rect x="145" y="430" width="430" height="225" rx="22" fill="#171b36"/><text x="185" y="480" fill="#f8fafc" font-family="Arial,sans-serif" font-size="24" font-weight="700">FOCUS TIMER</text><text x="185" y="560" fill="#67e8f9" font-family="Arial,sans-serif" font-size="56" font-weight="700">25:00</text><rect x="185" y="590" width="145" height="38" rx="19" fill="#67e8f9"/><text x="258" y="616" text-anchor="middle" fill="#111827" font-family="Arial,sans-serif" font-size="17" font-weight="700">START FOCUS</text>
-  <rect x="615" y="430" width="440" height="225" rx="22" fill="#171b36"/><text x="655" y="480" fill="#f8fafc" font-family="Arial,sans-serif" font-size="24" font-weight="700">TODAY'S TASKS</text><g fill="#cbd5e1" font-family="Arial,sans-serif" font-size="20"><text x="660" y="535">✓  Plan the day</text><text x="660" y="580">○  Deep work session</text><text x="660" y="625">○  Review quick links</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="gdash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818CF8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.30"/>
+    </linearGradient>
+    <radialGradient id="rdash" cx="0.7" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#818CF8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#0B0B14"/>
+  <rect width="1200" height="800" fill="url(#gdash)"/>
+  <rect width="1200" height="800" fill="url(#rdash)"/>
+  <g fill="#818CF8" fill-opacity="0.16">
+    <circle cx="90" cy="90" r="4"/><circle cx="150" cy="90" r="4"/><circle cx="210" cy="90" r="4"/>
+    <circle cx="90" cy="140" r="4"/><circle cx="150" cy="140" r="4"/><circle cx="210" cy="140" r="4"/>
+    <circle cx="1010" cy="640" r="4"/><circle cx="1070" cy="640" r="4"/><circle cx="1130" cy="640" r="4"/>
+    <circle cx="1010" cy="690" r="4"/><circle cx="1070" cy="690" r="4"/><circle cx="1130" cy="690" r="4"/>
+  </g>
+<circle cx="330" cy="300" r="140" fill="#1B1B30" stroke="#818CF8" stroke-opacity="0.7" stroke-width="3"/><line x1="330" y1="300" x2="330" y2="200" stroke="#A5B4FC" stroke-width="7" stroke-linecap="round"/><line x1="330" y1="300" x2="400" y2="340" stroke="#A5B4FC" stroke-width="7" stroke-linecap="round"/><circle cx="330" cy="300" r="10" fill="#A5B4FC"/><rect x="560" y="130" width="480" height="340" rx="18" fill="#1B1B30" stroke="#818CF8" stroke-opacity="0.55" stroke-width="2"/><rect x="590" y="170" width="30" height="30" rx="8" fill="none" stroke="#A5B4FC" stroke-width="3"/><path d="M597 185 l7 8 l13 -16" fill="none" stroke="#34D399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="640" y="179" width="300" height="11" rx="5" fill="#A5B4FC" fill-opacity="0.45"/><rect x="590" y="240" width="30" height="30" rx="8" fill="none" stroke="#A5B4FC" stroke-width="3"/><path d="M597 255 l7 8 l13 -16" fill="none" stroke="#34D399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="640" y="249" width="260" height="11" rx="5" fill="#A5B4FC" fill-opacity="0.45"/><rect x="590" y="310" width="30" height="30" rx="8" fill="none" stroke="#A5B4FC" stroke-width="3"/><rect x="640" y="319" width="220" height="11" rx="5" fill="#A5B4FC" fill-opacity="0.45"/><rect x="590" y="380" width="30" height="30" rx="8" fill="none" stroke="#A5B4FC" stroke-width="3"/><rect x="640" y="389" width="180" height="11" rx="5" fill="#A5B4FC" fill-opacity="0.45"/><rect x="150" y="520" width="210" height="70" rx="35" fill="#1B1B30" stroke="#818CF8" stroke-opacity="0.6" stroke-width="2"/><circle cx="190" cy="555" r="12" fill="#818CF8" fill-opacity="0.8"/><rect x="400" y="520" width="210" height="70" rx="35" fill="#1B1B30" stroke="#818CF8" stroke-opacity="0.6" stroke-width="2"/><circle cx="440" cy="555" r="12" fill="#818CF8" fill-opacity="0.8"/><rect x="650" y="520" width="210" height="70" rx="35" fill="#1B1B30" stroke="#818CF8" stroke-opacity="0.6" stroke-width="2"/><circle cx="690" cy="555" r="12" fill="#818CF8" fill-opacity="0.8"/><rect x="900" y="520" width="210" height="70" rx="35" fill="#1B1B30" stroke="#818CF8" stroke-opacity="0.6" stroke-width="2"/><circle cx="940" cy="555" r="12" fill="#818CF8" fill-opacity="0.8"/>
+  <rect x="480" y="668" width="240" height="6" rx="3" fill="#818CF8"/>
+  <text x="600" y="730" text-anchor="middle" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Personal Dashboard</text>
 </svg>

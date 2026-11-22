@@ -4,7 +4,7 @@ import { useLanguage } from '../i18n/LanguageContext'
 import { profile } from '../data/profile'
 import { GitHubIcon, WhatsAppIcon } from './ui/icons'
 
-const sectionIds = ['about', 'experience', 'projects', 'stack', 'contact'] as const
+const sectionIds = ['about', 'experience', 'education', 'projects', 'services', 'stack', 'contact'] as const
 
 /** Tracks which section is currently in the middle of the viewport. */
 const useActiveSection = () => {

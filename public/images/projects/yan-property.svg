@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#34D399" stop-opacity="0.15"/>
+    <linearGradient id="gyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0.30"/>
     </linearGradient>
+    <radialGradient id="ryan" cx="0.7" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="600" height="400" fill="#0B0B14"/>
-  <rect width="600" height="400" fill="url(#g)"/>
-  <g fill="none" stroke="#1A1536" stroke-width="2">
-    <path d="M60 120 H540 M60 220 H540 M180 60 V320 M380 60 V320"/>
+  <rect width="1200" height="800" fill="#0B0B14"/>
+  <rect width="1200" height="800" fill="url(#gyan)"/>
+  <rect width="1200" height="800" fill="url(#ryan)"/>
+  <g fill="#38BDF8" fill-opacity="0.16">
+    <circle cx="90" cy="90" r="4"/><circle cx="150" cy="90" r="4"/><circle cx="210" cy="90" r="4"/>
+    <circle cx="90" cy="140" r="4"/><circle cx="150" cy="140" r="4"/><circle cx="210" cy="140" r="4"/>
+    <circle cx="1010" cy="640" r="4"/><circle cx="1070" cy="640" r="4"/><circle cx="1130" cy="640" r="4"/>
+    <circle cx="1010" cy="690" r="4"/><circle cx="1070" cy="690" r="4"/><circle cx="1130" cy="690" r="4"/>
   </g>
-  <g fill="#120E24" stroke="#A78BFA" stroke-width="2">
-    <path d="M230 230 L290 180 L350 230 V290 H230 Z"/>
-    <rect x="275" y="250" width="30" height="40"/>
-  </g>
-  <g fill="#22D3EE">
-    <path d="M140 150 a16 16 0 1 1 32 0 c0 14 -16 30 -16 30 s-16 -16 -16 -30z"/>
-    <path d="M430 110 a16 16 0 1 1 32 0 c0 14 -16 30 -16 30 s-16 -16 -16 -30z"/>
-  </g>
-  <text x="300" y="350" text-anchor="middle" fill="#D1D5DB" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">YanProperty</text>
+<polygon points="600,150 880,380 820,380 820,580 380,580 380,380 320,380" fill="#1B1B30" stroke="#38BDF8" stroke-opacity="0.7" stroke-width="3"/><polygon points="600,150 880,380 320,380" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linejoin="round"/><rect x="540" y="430" width="120" height="150" rx="10" fill="#38BDF8" fill-opacity="0.7"/><rect x="430" y="420" width="70" height="70" rx="8" fill="#7DD3FC" fill-opacity="0.6"/><rect x="700" y="420" width="70" height="70" rx="8" fill="#7DD3FC" fill-opacity="0.6"/><rect x="150" y="330" width="110" height="250" rx="10" fill="#151527" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="2"/><rect x="940" y="280" width="110" height="300" rx="10" fill="#151527" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="2"/><rect x="175" y="360" width="60" height="34" rx="6" fill="#38BDF8" fill-opacity="0.35"/><rect x="965" y="360" width="60" height="34" rx="6" fill="#38BDF8" fill-opacity="0.35"/><rect x="175" y="420" width="60" height="34" rx="6" fill="#38BDF8" fill-opacity="0.35"/><rect x="965" y="420" width="60" height="34" rx="6" fill="#38BDF8" fill-opacity="0.35"/><rect x="175" y="480" width="60" height="34" rx="6" fill="#38BDF8" fill-opacity="0.35"/><rect x="965" y="480" width="60" height="34" rx="6" fill="#38BDF8" fill-opacity="0.35"/><rect x="175" y="540" width="60" height="34" rx="6" fill="#38BDF8" fill-opacity="0.35"/><rect x="965" y="540" width="60" height="34" rx="6" fill="#38BDF8" fill-opacity="0.35"/><path d="M1000 130 c-55 0 -100 45 -100 100 c0 75 100 170 100 170 c0 0 100 -95 100 -170 c0 -55 -45 -100 -100 -100 z" fill="#38BDF8" fill-opacity="0.9"/><circle cx="1000" cy="230" r="38" fill="#0B0B14"/>
+  <rect x="480" y="668" width="240" height="6" rx="3" fill="#38BDF8"/>
+  <text x="600" y="730" text-anchor="middle" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">YanProperty</text>
 </svg>
